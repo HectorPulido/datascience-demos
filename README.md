@@ -1,25 +1,25 @@
-# streamlit demos
+# 🧪 Data Science Demos
 
-These are some demos of [streamlit](https://streamlit.io/) apps I've made. For personal visualization projects, I've found streamlit to be a great way to quickly prototype and share ideas.
+Small data science, computer vision and Python experiments — each folder is a self-contained demo with its own README and requirements.
 
-## Running the app
-To run the app, first install the requirements:
+| Demo | Tech | Description |
+|---|---|---|
+| [vectorial-space](vectorial-space) | Streamlit · sentence-transformers | Interactive demo of the embedding tech behind vector databases: encode phrases, project them with PCA and compare similarity |
+| [whatsapp-chat-analyzer](whatsapp-chat-analyzer) | Jupyter · NLTK | Analyze a WhatsApp chat export: message and image activity over time, Spanish sentiment analysis and the most emotional days |
+| [recommendation-systems](recommendation-systems) | Jupyter · pandas | The three simplest recommendation systems: collaborative filtering, content-based filtering and a hybrid of both |
+| [hand-mouse-control](hand-mouse-control) | OpenCV · MediaPipe | Control the mouse with hand gestures through your webcam |
+| [joystick-media-control](joystick-media-control) | pygame | Create hotkeys with a joystick: map buttons to arbitrary commands (made for a media center) |
+
+## Running a demo
+
+Each demo has its own `requirements.txt`:
+
 ```bash
+cd <demo-folder>
 pip install -r requirements.txt
 ```
-Then run the app:
-```bash
-streamlit run app.py
-```
 
-Or run the app directly from collab
-There you can select the app you want to run from the sidebar
-[Collab link](https://colab.research.google.com/drive/11K5Jh4kM7RBg4mvphIwmKEusYSkxJRVs#scrollTo=tmB4QyfTM4Du)
-
-## Demos
-1. Vectorial space demo
-A demo of the embeddings tech base of vectorial databases
-
+Then follow the instructions in the demo's README (Streamlit apps run with `streamlit run <file>.py`, plain scripts with `python main.py`, notebooks with Jupyter or Colab).
 
 <div align="center">
 <h3 align="center">Let's connect 😋</h3>
@@ -32,6 +32,5 @@ A demo of the embeddings tech base of vectorial databases
 <a href="https://www.twitch.tv/hector_pulido_" target="blank">
 <img align="center" width="30px" alt="Hector's Twitch" src="https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"/></a> &nbsp; &nbsp;
 <a href="https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw" target="blank">
-<img align="center" width="30px" alt="Hector's Youtube" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"/></a> &nbsp; &nbsp;
-
+<img align="center" width="30px" alt="Hector's Youtube" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"/></a>
 </p>
