@@ -9,6 +9,13 @@ Small data science, computer vision and Python experiments — each folder is a 
 | [recommendation-systems](recommendation-systems) | Jupyter · pandas | The three simplest recommendation systems: collaborative filtering, content-based filtering and a hybrid of both |
 | [hand-mouse-control](hand-mouse-control) | OpenCV · MediaPipe | Control the mouse with hand gestures through your webcam |
 | [joystick-media-control](joystick-media-control) | pygame | Create hotkeys with a joystick: map buttons to arbitrary commands (made for a media center) |
+| [mario-level-generator](mario-level-generator) | PyTorch · LSTM | Generate Super Mario levels with an LSTM |
+| [signs-detection](signs-detection) | PyTorch · OpenCV | SIGNS dataset image detector, with an OpenCV interface for live inference |
+| [deep-rl-pytorch](deep-rl-pytorch) | PyTorch | The simplest deep reinforcement learning algorithm, kept easy to read |
+| [regex-genetic-algorithm](regex-genetic-algorithm) | Python | Evolve regular expressions from positive/negative examples with a genetic algorithm |
+| [parabolic-motion-opencv](parabolic-motion-opencv) | OpenCV | Parabolic motion physics simulation using OpenCV as the render engine |
+| [voice-translator](voice-translator) | Whisper | Near real-time voice translator: speech recognition plus translation |
+| [blockchain-twitter](blockchain-twitter) | Python · JS | Twitter clone experiment built on top of a from-scratch blockchain |
 
 ## Running a demo
 
